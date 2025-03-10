@@ -11,7 +11,15 @@ namespace PersonExample
         // Method to display person details
         public void DisplayDetails()
         {
-            console
+            Console.WriteLine("$Name: {Name}, Age: {Age}");
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // creation of an instance of te person class
+            
         }
     }
 }
