@@ -19,7 +19,15 @@ namespace PersonExample
         static void Main(string[] args)
         {
             // creation of an instance of te person class
-            
+            Person person = new Person();
+
+            // set properties
+            person.Name = "Alice";
+            person.Age = 30;
+
+
+            // call the method to display
+            person.DisplayDetails();
         }
     }
 }
